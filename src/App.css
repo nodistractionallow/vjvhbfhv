@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav {
+  background-color: #003087;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav h1 {
+  margin: 0;
+}
+
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.nav button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.login, .register, .matches, .create-team, .results, .my-team {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.login h2, .register h2, .matches h2, .create-team h2, .results h2, .my-team h2 {
+  color: #003087;
+}
+
+.login form, .register form, .create-team form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login input, .register input, .create-team input {
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login button, .register button, .create-team button {
+  background-color: #003087;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login button:hover, .register button:hover, .create-team button:hover {
+  background-color: #00205b;
+}
+
+.google-login {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.matches ul, .results ul, .my-team ul {
+  list-style: none;
+  padding: 0;
+}
+
+.matches li, .results li, .my-team li {
+  background-color: #e6f0fa;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.matches a {
+  color: #003087;
+  margin-left: 10px;
+}

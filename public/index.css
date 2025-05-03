@@ -1,0 +1,71 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #1e3a8a;
+  padding: 10px 0;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #f97316 !important;
+}
+
+.btn-orange {
+  background-color: #f97316;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.btn-orange:hover {
+  background-color: #e55f0d;
+  color: #ffffff;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}
+
+.card-header {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.list-group-item {
+  border-color: #e5e7eb;
+}
+
+.modal-content {
+  border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+  .btn-sm {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  .container {
+    padding: 10px;
+  }
+}
